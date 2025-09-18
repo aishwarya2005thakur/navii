@@ -1,73 +1,112 @@
-# Welcome to your Lovable project
+# 🎓 Navii — AI Chatbot for Students
 
-## Project info
+Navii is a **modern, responsive web app** designed to be a **student’s all-in-one AI companion**.
+It helps with studying, career growth, and event discovery — all inside a clean, calming chat interface.
 
-**URL**: https://lovable.dev/projects/4e9fbfb6-422b-4ad3-a457-afd94c7fd956
+Built with **React + TailwindCSS**, Navii showcases how AI can be seamlessly integrated into student life.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+### 🧑‍🤝‍🧑 1. Mood & Study Buddy
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4e9fbfb6-422b-4ad3-a457-afd94c7fd956) and start prompting.
+* Chat with an AI that understands your mood (sentiment analysis ready).
+* Mood-based **music suggestions** (Spotify API placeholder).
+* Built-in **Pomodoro Timer** for focused study sessions.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 💼 2. Career Mentor
 
-**Use your preferred IDE**
+* Get **project ideas** tailored to your skills.
+* Receive **pitch feedback** on your startup ideas.
+* Explore **roadmaps** to build industry-ready expertise.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎉 3. Event Finder
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Browse **upcoming hackathons and events** (dummy event cards).
+* “Join” button for easy registration links.
+* Smart suggestions for events that match your interests.
 
-Follow these steps:
+---
+## 🖥️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* ⚛️ **React.js** (Vite + TypeScript)
+* 🎨 **Tailwind CSS**
+* 🧩 **shadcn-ui components**
+* 🔌 API-ready placeholders:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+  * Sentiment Analysis API
+  * OpenAI API / LLM
+  * Spotify API
+  * Event Scraper API
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📂 Project Structure
 
-**Edit a file directly in GitHub**
+`\n/src\n  ├── components\n  
+           ├── ModeSwitcher.tsx\n  
+           ├── ChatWindow.tsx\n  
+           ├── MusicList.tsx\n  
+           ├── PomodoroTimer.tsx\n  
+           ├── EventList.tsx\n 
+           ├── App.tsx\n  
+           └── index.css\n`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🚀 Getting Started
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Clone the repo**
 
-## What technologies are used for this project?
+   ```sh
+   git clone http//github.com/aishwarya2005thakur/navii
+   cd navii
+   ```
 
-This project is built with:
+2. **Install dependencies**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```sh
+   npm install
+   ```
 
-## How can I deploy this project?
+3. **Run the development server**
 
-Simply open [Lovable](https://lovable.dev/projects/4e9fbfb6-422b-4ad3-a457-afd94c7fd956) and click on Share -> Publish.
+   ```sh
+   npm run dev
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+4. Open [http://localhost:5173](http://localhost:5173)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧪 Demo Data
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+* **Music suggestions**: Pre-loaded chill/lofi tracks.
+* **Events**: Sample hackathons & workshops.
+* **AI responses**: Dummy text generated from placeholders.
+
+---
+
+## 📌 Roadmap
+
+* [ ] Integrate **OpenAI API** for natural conversations.
+* [ ] Add **Spotify API** for real playlists.
+* [ ] Scrape & fetch **real hackathons/events**.
+* [ ] Enable **voice input** via Speech-to-Text API.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'Add amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a Pull Request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.

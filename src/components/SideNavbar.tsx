@@ -10,12 +10,6 @@ const navigationItems = [
     gradient: "bg-gradient-peach"
   },
   {
-    name: "Career Mentor",
-    href: "/career-mentor", 
-    icon: Briefcase,
-    gradient: "bg-gradient-mint"
-  },
-  {
     name: "Event Finder",
     href: "/event-finder",
     icon: Calendar,

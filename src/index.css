@@ -92,24 +92,48 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 25 95% 78%;
+    --primary-foreground: 217 19% 27%;
+    --primary-light: 25 100% 85%;
+    --primary-dark: 25 85% 70%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
+    --secondary-light: 165 30% 75%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
+    --accent-light: 260 25% 75%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 25 95% 78%;
+
+    /* Custom Campus Compass Dark Colors */
+    --peach: 25 75% 68%;
+    --peach-light: 25 80% 75%;
+    --mint: 165 35% 75%;
+    --mint-light: 165 40% 80%;
+    --lavender: 260 30% 75%;
+    --lavender-light: 260 35% 80%;
+    
+    /* Dark Mode Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(var(--peach)) 0%, hsl(var(--mint)) 50%, hsl(var(--lavender)) 100%);
+    --gradient-peach: linear-gradient(135deg, hsl(var(--peach-light)) 0%, hsl(var(--peach)) 100%);
+    --gradient-mint: linear-gradient(135deg, hsl(var(--mint-light)) 0%, hsl(var(--mint)) 100%);
+    --gradient-lavender: linear-gradient(135deg, hsl(var(--lavender-light)) 0%, hsl(var(--lavender)) 100%);
+
+    /* Dark Mode Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.25);
+    --shadow-card: 0 2px 12px -2px hsl(0 0% 0% / 0.25);
+    --shadow-float: 0 8px 30px -8px hsl(0 0% 0% / 0.3);
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -1,6 +1,5 @@
 import PomodoroTimer from "@/components/PomodoroTimer";
 import MusicList from "@/components/MusicList";
-import ChatWindow from "@/components/ChatWindow";
 
 const StudyBuddyPage = () => {
   return (
@@ -14,15 +13,11 @@ const StudyBuddyPage = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-6">
-        {/* Chat Window - Takes 2 columns */}
-        <div className="lg:col-span-2">
-          <ChatWindow mode="mood" />
-        </div>
-
-        {/* Study Tools - Takes 1 column */}
-        <div className="lg:col-span-1 space-y-6">
+      <div className="grid lg:grid-cols-2 gap-6">
+        <div className="space-y-6">
           <PomodoroTimer />
+        </div>
+        <div className="space-y-6">
           <MusicList />
         </div>
       </div>

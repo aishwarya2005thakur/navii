@@ -1,4 +1,3 @@
-import ChatWindow from "@/components/ChatWindow";
 import EventList from "@/components/EventList";
 
 const EventFinderPage = () => {
@@ -13,16 +12,8 @@ const EventFinderPage = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-6">
-        {/* Chat Window - Takes 2 columns */}
-        <div className="lg:col-span-2">
-          <ChatWindow mode="events" />
-        </div>
-
-        {/* Event List - Takes 1 column */}
-        <div className="lg:col-span-1">
-          <EventList />
-        </div>
+      <div className="max-w-4xl">
+        <EventList />
       </div>
     </div>
   );
